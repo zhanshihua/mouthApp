@@ -1,4 +1,9 @@
 {
   "name": "mouthApp",
-  "displayName": "mouthApp"
+  "displayName": "mouthApp",
+  "splash": {
+    "image": "./app/assets/kaiping.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#25292e"
+  }
 }
