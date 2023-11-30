@@ -4,8 +4,16 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import router from './app/router/index';
 import Config from 'react-native-config';
 const Stack = createNativeStackNavigator();
+import {getAxios} from './app/utils/axios';
 export default function App() {
-  console.error(Config, '---Config');
+  console.error(Config.API_URL, '---Config');
+  // //配置接口
+  // const getConfig = () => {
+  //   getAxios({
+  //     url: `${Config.API_URL}/mouth/config/index`,
+  //   });
+  // };
+
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>

@@ -4,6 +4,14 @@
   "splash": {
     "image": "./app/assets/kaiping.png",
     "resizeMode": "contain",
-    "backgroundColor": "#25292e"
+    "backgroundColor": "#25292e",
+    "icon": ""
+  },
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "271b3017-8546-4ac0-bbb6-746751dac6b6"
+      }
+    }
   }
 }
